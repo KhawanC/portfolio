@@ -1,12 +1,15 @@
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const ImageGallery = ({ images, selectedIndex, onImageChange, onImageExpand }) => {
+  const { t } = useTranslation();
+
   if (!images || images.length === 0) return null;
 
   return (
     <div>
       <h3 className="text-lg font-semibold text-white mb-4">
-        Galeria
+        {t('projects.gallery')}
       </h3>
       <div className="relative">
         <div 
@@ -20,7 +23,7 @@ const ImageGallery = ({ images, selectedIndex, onImageChange, onImageExpand }) =
           />
           <div className="absolute inset-0 bg-black/50 opacity-0 group-hover/image:opacity-100 transition-opacity duration-300 flex items-center justify-center pointer-events-none">
             <div className="text-white text-sm bg-dark-secondary/90 px-4 py-2 rounded-lg border border-gray-700">
-              Clique para expandir
+              {t('projects.clickToExpand')}
             </div>
           </div>
           

@@ -1,9 +1,11 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import EmailIcon from '../../assets/email-1.svg';
 
 const Footer = () => {
+  const { t } = useTranslation();
   const currentYear = new Date().getFullYear();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false, margin: '-100px' });
@@ -22,7 +24,7 @@ const Footer = () => {
               Kauã Cassiano
             </h3>
             <p className="text-gray-400 text-sm mb-3">
-              Desenvolvedor Web Fullstack
+              {t('footer.role')}
             </p>
             <motion.div
               initial={{ opacity: 0, y: 20 }}
@@ -51,10 +53,10 @@ const Footer = () => {
             className="text-center md:text-right"
           >
             <p className="text-gray-500 text-sm mb-2">
-              © {currentYear} Kauã Cassiano. Todos os direitos reservados.
+              © {currentYear} Kauã Cassiano. {t('footer.rights')}.
             </p>
             <p className="text-gray-600 text-xs">
-              Desenvolvido com React e Tailwind CSS
+              {t('footer.madeWith')}
             </p>
           </motion.div>
         </div>

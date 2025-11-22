@@ -1,8 +1,10 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const Hero = () => {
+  const { t } = useTranslation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false, margin: '-100px' });
 
@@ -49,10 +51,10 @@ const Hero = () => {
             className="mb-6"
           >
             <h2 className="text-2xl md:text-4xl lg:text-5xl font-semibold text-gray-300 mb-4">
-              Desenvolvedor Web Fullstack
+              {t('hero.subtitle')}
             </h2>
             <p className="text-lg md:text-xl text-gray-400 max-w-2xl mx-auto">
-              Transformando ideias em soluções digitais robustas e inovadoras
+              {t('hero.description')}
             </p>
           </motion.div>
 
@@ -67,7 +69,7 @@ const Hero = () => {
               whileHover={{ scale: 1.05, boxShadow: '0 20px 40px rgba(59, 130, 246, 0.4)' }}
               whileTap={{ scale: 0.95 }}
             >
-              Ver Projetos
+              {t('hero.viewProjects')}
             </motion.button>
           </motion.div>
 

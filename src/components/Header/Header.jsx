@@ -1,7 +1,10 @@
 import { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
+import LanguageSelector from '../LanguageSelector/LanguageSelector';
 
 const Header = () => {
+  const { t } = useTranslation();
   const [scrolled, setScrolled] = useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
@@ -22,9 +25,9 @@ const Header = () => {
   };
 
   const navItems = [
-    { name: 'Sobre', id: 'about' },
-    { name: 'Skills', id: 'skills' },
-    { name: 'Projetos', id: 'projects' },
+    { name: t('header.about'), id: 'about' },
+    { name: t('header.skills'), id: 'skills' },
+    { name: t('header.projects'), id: 'projects' },
   ];
 
   return (
@@ -68,6 +71,7 @@ const Header = () => {
                 />
               </motion.button>
             ))}
+            <LanguageSelector />
           </div>
 
           <button
@@ -116,6 +120,9 @@ const Header = () => {
                 {item.name}
               </button>
             ))}
+            <div className="pt-2">
+              <LanguageSelector />
+            </div>
           </motion.div>
         )}
       </nav>

@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 import SpringBootIcon from '../../assets/spring-boot.svg';
 import ReactIcon from '../../assets/React-icon.svg';
 import AngularIcon from '../../assets/Angular_logo.svg';
@@ -8,6 +9,7 @@ import DockerIcon from '../../assets/Docker-svgrepo-com.svg';
 import PythonIcon from '../../assets/python-svgrepo-com.svg';
 
 const Skills = () => {
+  const { t } = useTranslation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false, margin: '-100px' });
 
@@ -57,10 +59,10 @@ const Skills = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            Minhas <span className="text-gradient">Skills</span>
+            {t('skills.title')} <span className="text-gradient">{t('skills.titleHighlight')}</span>
           </h2>
           <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto">
-            Principais tecnologias e ferramentas que utilizo no desenvolvimento
+            {t('skills.description')}
           </p>
         </motion.div>
 
@@ -108,4 +110,3 @@ const Skills = () => {
 };
 
 export default Skills;
-

@@ -1,0 +1,117 @@
+{
+  "header": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects"
+  },
+  "hero": {
+    "title": "Kauã Cassiano",
+    "subtitle": "Fullstack Web Developer",
+    "description": "Transforming ideas into robust and innovative digital solutions",
+    "viewProjects": "View Projects"
+  },
+  "about": {
+    "title": "About",
+    "titleSuffix": "Me",
+    "description": "Fullstack Web Developer with experience in creating landing pages, robust and complex systems, WhatsApp automations, Discord bots, n8n flows and much more.",
+    "experiences": {
+      "landingPages": {
+        "title": "Landing Pages",
+        "description": "Creation of optimized and responsive conversion pages"
+      },
+      "robustSystems": {
+        "title": "Robust Systems",
+        "description": "Development of complex and scalable systems"
+      },
+      "whatsappAutomations": {
+        "title": "WhatsApp Automations",
+        "description": "Intelligent automations for WhatsApp Business"
+      },
+      "discordBots": {
+        "title": "Discord Bots",
+        "description": "Custom bots for Discord communities"
+      },
+      "n8nFlows": {
+        "title": "n8n Flows",
+        "description": "Process automation with n8n workflows"
+      }
+    }
+  },
+  "skills": {
+    "title": "My",
+    "titleHighlight": "Skills",
+    "description": "Main technologies and tools I use in development"
+  },
+  "projects": {
+    "title": "My",
+    "titleHighlight": "Projects",
+    "description": "Some of the projects I developed along my journey",
+    "comingSoon": "Coming Soon",
+    "comingSoonDescription": "This project will be added soon",
+    "openButton": "Open",
+    "clickToExpand": "Click to expand",
+    "technologies": "Technologies",
+    "description": "Description",
+    "gallery": "Gallery",
+    "aboutProject": "About the Project",
+    "implementedIntegrations": "Implemented Integrations",
+    "discordLink": "Join Discord",
+    "integrationsDescription": "I've had the opportunity to implement various backend integrations between systems, connecting different platforms and services to create complete and efficient solutions."
+  },
+  "footer": {
+    "role": "Fullstack Web Developer",
+    "rights": "All rights reserved",
+    "madeWith": "Developed with React and Tailwind CSS"
+  },
+  "projectData": {
+    "moonlight": {
+      "title": "Moonlight - Discord",
+      "shortDescription": "Interaction and moderation BOT for a Discord server",
+      "description": "Multi-function bot used as the main server system, its main features are:\n\n• Points system with shop to get benefits on the server\n• Points system includes monitoring in text and voice chats\n• Daily reports with hours spent by members in calls\n• Spam checks in text chats\n• AFK people monitoring in calls\n• Robust ticket system with reports and member delegation\n• Integration with League of Legends inhouse bot to expand points system\n• And much more!"
+    },
+    "middleman": {
+      "title": "Middleman - Discord",
+      "shortDescription": "BOT for sales / purchases using intermediaries in a discord server",
+      "description": "BOT made to assist and facilitate sales on a server, where members can exchange their items using an intermediary during the process, facilitating the collection of information during the purchase ticket process. Its main features are:\n\n• Ticket creation and intuitive and automated support flow\n• Integration with payment systems (Mercado Pago and InfinitePay) with automatic payment confirmation\n• Records with ranking between members and staff\n• Detailed personalized profile with transactions and statistics\n• Robust logging system with weekly and monthly reports\n• Spending goals systems to reward members and staff attendants\n• Public sending of exchange receipts to generate credibility for the server\n• Simplified settings panel guiding how to configure the BOT"
+    },
+    "integracoes": {
+      "title": "System Integrations",
+      "shortDescription": "Development of robust integrations between different systems and APIs",
+      "integrations": {
+        "ecommerce": {
+          "category": "E-commerce and Payments",
+          "items": ["Mercado Livre", "Mercado Pago", "Payment splits (Stripe, Mercado Pago, Asaas)"]
+        },
+        "comunicacao": {
+          "category": "Communication",
+          "items": ["WhatsApp (Official API and Evolution API)"]
+        },
+        "juridicos": {
+          "category": "Legal Systems",
+          "items": ["Datajud", "PJ-E", "E-PROC", "E-SAJ"]
+        },
+        "autenticacao": {
+          "category": "Authentication and Security",
+          "items": ["OAuth 2.0", "JWT (JSON Web Tokens)", "Auth0", "Keycloak"]
+        },
+        "notificacoes": {
+          "category": "Notifications",
+          "items": ["Email (SendGrid, Mailgun)", "SMS (Twilio)", "Push Notifications (Firebase Cloud Messaging)"]
+        },
+        "armazenamento": {
+          "category": "Cloud Storage",
+          "items": ["AWS S3", "Google Cloud Storage", "Azure Blob Storage"]
+        },
+        "utilitarios": {
+          "category": "Utilities",
+          "items": ["ViaCep", "Google Maps API", "Correios API"]
+        },
+        "ia": {
+          "category": "Artificial Intelligence",
+          "items": ["OpenAI", "Google AI", "Azure AI"]
+        }
+      }
+    }
+  }
+}
+

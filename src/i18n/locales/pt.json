@@ -1,0 +1,117 @@
+{
+  "header": {
+    "about": "Sobre",
+    "skills": "Skills",
+    "projects": "Projetos"
+  },
+  "hero": {
+    "title": "Kauã Cassiano",
+    "subtitle": "Desenvolvedor Web Fullstack",
+    "description": "Transformando ideias em soluções digitais robustas e inovadoras",
+    "viewProjects": "Ver Projetos"
+  },
+  "about": {
+    "title": "Sobre",
+    "titleSuffix": "Mim",
+    "description": "Desenvolvedor Web Fullstack com experiência em criação de landing pages, sistemas robustos e complexos, automações para WhatsApp, bots para Discord, fluxos n8n e muito mais.",
+    "experiences": {
+      "landingPages": {
+        "title": "Landing Pages",
+        "description": "Criação de páginas de conversão otimizadas e responsivas"
+      },
+      "robustSystems": {
+        "title": "Sistemas Robustos",
+        "description": "Desenvolvimento de sistemas complexos e escaláveis"
+      },
+      "whatsappAutomations": {
+        "title": "Automações WhatsApp",
+        "description": "Automações inteligentes para WhatsApp Business"
+      },
+      "discordBots": {
+        "title": "Bots Discord",
+        "description": "Bots personalizados para comunidades Discord"
+      },
+      "n8nFlows": {
+        "title": "Fluxos n8n",
+        "description": "Automação de processos com workflows n8n"
+      }
+    }
+  },
+  "skills": {
+    "title": "Minhas",
+    "titleHighlight": "Skills",
+    "description": "Principais tecnologias e ferramentas que utilizo no desenvolvimento"
+  },
+  "projects": {
+    "title": "Meus",
+    "titleHighlight": "Projetos",
+    "description": "Alguns dos projetos que desenvolvi ao longo da minha jornada",
+    "comingSoon": "Projeto em breve",
+    "comingSoonDescription": "Este projeto será adicionado em breve",
+    "openButton": "Abrir",
+    "clickToExpand": "Clique para expandir",
+    "technologies": "Tecnologias",
+    "description": "Descrição",
+    "gallery": "Galeria",
+    "aboutProject": "Sobre o Projeto",
+    "implementedIntegrations": "Integrações Implementadas",
+    "discordLink": "Entrar no Discord",
+    "integrationsDescription": "Já tive a oportunidade de implementar no backend diversas integrações entre sistemas, conectando diferentes plataformas e serviços para criar soluções completas e eficientes."
+  },
+  "footer": {
+    "role": "Desenvolvedor Web Fullstack",
+    "rights": "Todos os direitos reservados",
+    "madeWith": "Desenvolvido com React e Tailwind CSS"
+  },
+  "projectData": {
+    "moonlight": {
+      "title": "Moonlight - Discord",
+      "shortDescription": "BOT de interações e moderação para um servidor do Discord",
+      "description": "Bot multi-funções utilizado como sistema principal do servidor, suas principais funcionalidades são:\n\n• Sistema de pontos com lojinha para conseguir benefícios no servidor\n• Sistema de pontos contém monitoramento em chats de texto e voz\n• Relatórios diários com quantidade em horas gasta pelos membros em call\n• Verificações de spam em chats de texto\n• Monitoramento de pessoas AFK em calls\n• Sistema de tickets robusto com relatórios e delegação de membros\n• Integração com bot de inhouse do League of Legends para expandir sistema de pontos\n• E muito mais!"
+    },
+    "middleman": {
+      "title": "Middleman - Discord",
+      "shortDescription": "BOT para vendas / compras utilizando intermediários em um servidor do discord",
+      "description": "BOT feito com o intuito de auxiliar e facilitar vendas em um servidor, onde membros podem trocar seus itens utilizando um intermediador durante o processo, facilitando assim a coleta de informações durante o processo do ticket de compra. Suas principais funcionalidades são:\n\n• Criação de tickets e fluxo de atendimento intuitivo e automatizado\n• Integração com sistemas de pagamento (Mercado Pago e InfinitePay) com confirmação de pagamento automático\n• Registros com ranking entre membros e staffs\n• Perfil personalizado detalhado com transações e estatísticas\n• Sistema de logs robusto com relatórios semanais e mensais\n• Sistemas de metas de gastos para recompensar membros e atendentes da staff\n• Envio público dos comprovantes das trocas para gerar credibilidade ao servidor\n• Painel de configurações simplificado orientando como configurar o BOT"
+    },
+    "integracoes": {
+      "title": "Integrações entre sistemas",
+      "shortDescription": "Desenvolvimento de integrações robustas entre diferentes sistemas e APIs",
+      "integrations": {
+        "ecommerce": {
+          "category": "E-commerce e Pagamentos",
+          "items": ["Mercado Livre", "Mercado Pago", "Splits de pagamento (Stripe, Mercado Pago, Asaas)"]
+        },
+        "comunicacao": {
+          "category": "Comunicação",
+          "items": ["WhatsApp (API oficial e Evolution API)"]
+        },
+        "juridicos": {
+          "category": "Sistemas Jurídicos",
+          "items": ["Datajud", "PJ-E", "E-PROC", "E-SAJ"]
+        },
+        "autenticacao": {
+          "category": "Autenticação e Segurança",
+          "items": ["OAuth 2.0", "JWT (JSON Web Tokens)", "Auth0", "Keycloak"]
+        },
+        "notificacoes": {
+          "category": "Notificações",
+          "items": ["Email (SendGrid, Mailgun)", "SMS (Twilio)", "Push Notifications (Firebase Cloud Messaging)"]
+        },
+        "armazenamento": {
+          "category": "Armazenamento em Nuvem",
+          "items": ["AWS S3", "Google Cloud Storage", "Azure Blob Storage"]
+        },
+        "utilitarios": {
+          "category": "Utilitários",
+          "items": ["ViaCep", "Google Maps API", "Correios API"]
+        },
+        "ia": {
+          "category": "Inteligência Artificial",
+          "items": ["OpenAI", "Google AI", "Azure AI"]
+        }
+      }
+    }
+  }
+}
+

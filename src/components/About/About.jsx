@@ -1,35 +1,37 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
+import { useTranslation } from 'react-i18next';
 
 const About = () => {
+  const { t } = useTranslation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false, margin: '-100px' });
 
   const experiences = [
     {
-      title: 'Landing Pages',
-      description: 'Criação de páginas de conversão otimizadas e responsivas',
+      title: t('about.experiences.landingPages.title'),
+      description: t('about.experiences.landingPages.description'),
       icon: '🎨',
     },
     {
-      title: 'Sistemas Robustos',
-      description: 'Desenvolvimento de sistemas complexos e escaláveis',
+      title: t('about.experiences.robustSystems.title'),
+      description: t('about.experiences.robustSystems.description'),
       icon: '⚙️',
     },
     {
-      title: 'Automações WhatsApp',
-      description: 'Automações inteligentes para WhatsApp Business',
+      title: t('about.experiences.whatsappAutomations.title'),
+      description: t('about.experiences.whatsappAutomations.description'),
       icon: '💬',
     },
     {
-      title: 'Bots Discord',
-      description: 'Bots personalizados para comunidades Discord',
+      title: t('about.experiences.discordBots.title'),
+      description: t('about.experiences.discordBots.description'),
       icon: '🤖',
     },
     {
-      title: 'Fluxos n8n',
-      description: 'Automação de processos com workflows n8n',
+      title: t('about.experiences.n8nFlows.title'),
+      description: t('about.experiences.n8nFlows.description'),
       icon: '🔄',
     },
   ];
@@ -69,12 +71,10 @@ const About = () => {
           className="text-center mb-16"
         >
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-            <span className="text-gradient">Sobre</span> Mim
+            <span className="text-gradient">{t('about.title')}</span> {t('about.titleSuffix')}
           </h2>
           <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto">
-            Desenvolvedor Web Fullstack com experiência em criação de landing
-            pages, sistemas robustos e complexos, automações para WhatsApp, bots
-            para Discord, fluxos n8n e muito mais.
+            {t('about.description')}
           </p>
         </motion.div>
 
@@ -119,4 +119,3 @@ const About = () => {
 };
 
 export default About;
-

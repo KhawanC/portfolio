@@ -1,17 +1,21 @@
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
-import { useRef, useState } from 'react';
-import { projects } from './projectsData';
+import { useRef, useState, useMemo } from 'react';
+import { useTranslation } from 'react-i18next';
+import { getProjects } from './projectsData';
 import ProjectCard from './ProjectCard';
 import ProjectModal from './ProjectModal';
 import ExpandedImageModal from './ExpandedImageModal';
 
 const Projects = () => {
+  const { t } = useTranslation();
   const ref = useRef(null);
   const isInView = useInView(ref, { once: false, margin: '-100px' });
   const [selectedProject, setSelectedProject] = useState(null);
   const [selectedImageIndex, setSelectedImageIndex] = useState(0);
   const [expandedImageIndex, setExpandedImageIndex] = useState(null);
+
+  const projects = useMemo(() => getProjects(t), [t]);
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -77,7 +81,7 @@ const Projects = () => {
     }
   };
 
-  const allProjects = [...projects, ...Array(3).fill(null)];
+  const allProjects = useMemo(() => [...projects, ...Array(3).fill(null)], [projects]);
 
   return (
     <>
@@ -94,10 +98,10 @@ const Projects = () => {
             className="text-center mb-16"
           >
             <h2 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
-              Meus <span className="text-gradient">Projetos</span>
+              {t('projects.title')} <span className="text-gradient">{t('projects.titleHighlight')}</span>
             </h2>
             <p className="text-lg md:text-xl text-gray-400 max-w-3xl mx-auto">
-              Alguns dos projetos que desenvolvi ao longo da minha jornada
+              {t('projects.description')}
             </p>
           </motion.div>
 

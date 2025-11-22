@@ -1,6 +1,9 @@
 import { motion } from 'framer-motion';
+import { useTranslation } from 'react-i18next';
 
 const ProjectCard = ({ project, variants, onOpen }) => {
+  const { t } = useTranslation();
+
   if (!project) {
     return (
       <motion.div
@@ -34,10 +37,10 @@ const ProjectCard = ({ project, variants, onOpen }) => {
             </div>
             
             <h3 className="text-xl font-semibold text-gray-400 group-hover:text-white transition-colors duration-300 mb-2">
-              Projeto em breve
+              {t('projects.comingSoon')}
             </h3>
             <p className="text-sm text-gray-500 text-center">
-              Este projeto será adicionado em breve
+              {t('projects.comingSoonDescription')}
             </p>
           </div>
 
@@ -100,7 +103,7 @@ const ProjectCard = ({ project, variants, onOpen }) => {
             }}
             className="text-xs text-gray-400 group-hover:text-white transition-all duration-300 px-3 py-1.5 bg-dark-secondary/80 hover:bg-dark-secondary rounded-lg border border-gray-700 hover:border-gray-600 whitespace-nowrap"
           >
-            Abrir
+            {t('projects.openButton')}
           </button>
         </div>
 
