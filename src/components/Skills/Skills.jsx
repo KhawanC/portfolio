@@ -1,12 +1,15 @@
+'use client'
+
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import SpringBootIcon from '../../assets/spring-boot.svg';
-import ReactIcon from '../../assets/React-icon.svg';
-import AngularIcon from '../../assets/Angular_logo.svg';
-import DockerIcon from '../../assets/Docker-svgrepo-com.svg';
-import PythonIcon from '../../assets/python-svgrepo-com.svg';
+
+const SpringBootIcon = '/assets/spring-boot.svg';
+const ReactIcon = '/assets/React-icon.svg';
+const AngularIcon = '/assets/Angular_logo.svg';
+const DockerIcon = '/assets/Docker-svgrepo-com.svg';
+const PythonIcon = '/assets/python-svgrepo-com.svg';
 
 const Skills = () => {
   const { t } = useTranslation();

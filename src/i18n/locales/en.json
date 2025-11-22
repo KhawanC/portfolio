@@ -64,6 +64,11 @@
     "madeWith": "Developed with React and Tailwind CSS"
   },
   "projectData": {
+    "helicebras": {
+      "title": "Helicebras - Web System",
+      "shortDescription": "Website for construction quotes from a local company",
+      "description": "Simple corporate website with modern and responsive design for a construction company in my state. It features a complete presentation of the services offered, with image examples in a carousel, a card explaining the company's trajectory, contact popups and a form for sending quotes."
+    },
     "moonlight": {
       "title": "Moonlight - Discord",
       "shortDescription": "Interaction and moderation BOT for a Discord server",

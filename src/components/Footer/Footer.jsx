@@ -1,8 +1,11 @@
+'use client'
+
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
 import { useTranslation } from 'react-i18next';
-import EmailIcon from '../../assets/email-1.svg';
+
+const EmailIcon = '/assets/email-1.svg';
 
 const Footer = () => {
   const { t } = useTranslation();

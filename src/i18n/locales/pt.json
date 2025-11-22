@@ -64,6 +64,11 @@
     "madeWith": "Desenvolvido com React e Tailwind CSS"
   },
   "projectData": {
+    "helicebras": {
+      "title": "Helicebras - Sistema web",
+      "shortDescription": "Site para orçamento de obras de uma empresa local",
+      "description": "Site empresarial simples com visual moderno e responsivo para uma empresa de obras do meu estado. Nela existe uma apresentação completa dos serviços oferecidos, com exemplo em imagens em um carrossel, card explicando a trajetória da empresa, popups de contato e um formulário para envio de orçamento."
+    },
     "moonlight": {
       "title": "Moonlight - Discord",
       "shortDescription": "BOT de interações e moderação para um servidor do Discord",

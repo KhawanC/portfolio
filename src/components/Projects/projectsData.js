@@ -1,24 +1,37 @@
-import MoonlightLogo from '../../assets/moonlight-bot/logo_moonlight.gif';
-import Screenshot1 from '../../assets/moonlight-bot/Captura de tela 2025-11-07 061620.png';
-import Screenshot2 from '../../assets/moonlight-bot/Captura de tela 2025-11-07 061659.png';
-import Screenshot3 from '../../assets/moonlight-bot/Captura de tela 2025-11-07 061723.png';
-import Screenshot4 from '../../assets/moonlight-bot/Captura de tela 2025-11-07 061748.png';
-import Screenshot5 from '../../assets/moonlight-bot/Captura de tela 2025-11-07 061840.png';
-import IntegracoesLogo from '../../assets/integrações/logo.png';
-import MiddlemanLogo from '../../assets/mmbot/logo-mm.jpg';
-import MMImage1 from '../../assets/mmbot/image_1.png';
-import MMImage2 from '../../assets/mmbot/image_2.png';
-import MMImage3 from '../../assets/mmbot/image_3.png';
-import MMImage4 from '../../assets/mmbot/image_4.png';
-import MMImage5 from '../../assets/mmbot/image_5.png';
-import MMImage6 from '../../assets/mmbot/image_6.png';
-import MMImage7 from '../../assets/mmbot/image_7.png';
-import MMImage8 from '../../assets/mmbot/image_8.png';
-import MMImage9 from '../../assets/mmbot/image_9.png';
-import MMImage10 from '../../assets/mmbot/image_10.png';
-import MMImage11 from '../../assets/mmbot/image_11.png';
+// No Next.js, os assets do public/ são servidos na raiz
+// Então usamos caminhos relativos começando com /assets/
+const HelicebrasImage1 = '/assets/helicebras/imagem_2022-12-14_075548157.png';
+const HelicebrasImage2 = '/assets/helicebras/imagem_2022-12-14_075624133.png';
+const MoonlightLogo = '/assets/moonlight-bot/logo_moonlight.gif';
+const Screenshot1 = '/assets/moonlight-bot/Captura de tela 2025-11-07 061620.png';
+const Screenshot2 = '/assets/moonlight-bot/Captura de tela 2025-11-07 061659.png';
+const Screenshot3 = '/assets/moonlight-bot/Captura de tela 2025-11-07 061723.png';
+const Screenshot4 = '/assets/moonlight-bot/Captura de tela 2025-11-07 061748.png';
+const Screenshot5 = '/assets/moonlight-bot/Captura de tela 2025-11-07 061840.png';
+const IntegracoesLogo = '/assets/integrações/logo.png';
+const MiddlemanLogo = '/assets/mmbot/logo-mm.jpg';
+const MMImage1 = '/assets/mmbot/image_1.png';
+const MMImage2 = '/assets/mmbot/image_2.png';
+const MMImage3 = '/assets/mmbot/image_3.png';
+const MMImage4 = '/assets/mmbot/image_4.png';
+const MMImage5 = '/assets/mmbot/image_5.png';
+const MMImage6 = '/assets/mmbot/image_6.png';
+const MMImage7 = '/assets/mmbot/image_7.png';
+const MMImage8 = '/assets/mmbot/image_8.png';
+const MMImage9 = '/assets/mmbot/image_9.png';
+const MMImage10 = '/assets/mmbot/image_10.png';
+const MMImage11 = '/assets/mmbot/image_11.png';
 
 export const getProjects = (t) => {
+  const helicebrasProject = {
+    id: 'helicebras',
+    title: t('projectData.helicebras.title'),
+    shortDescription: t('projectData.helicebras.shortDescription'),
+    logo: HelicebrasImage1,
+    technologies: ['Next.js', 'HTML', 'CSS', 'Javascript'],
+    description: t('projectData.helicebras.description'),
+    images: [HelicebrasImage1, HelicebrasImage2]
+  };
   const moonlightProject = {
     id: 'moonlight',
     title: t('projectData.moonlight.title'),
@@ -83,5 +96,5 @@ export const getProjects = (t) => {
     images: []
   };
 
-  return [moonlightProject, middlemanProject, integracoesProject];
+  return [helicebrasProject, moonlightProject, middlemanProject, integracoesProject];
 };
