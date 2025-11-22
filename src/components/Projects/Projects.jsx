@@ -83,7 +83,11 @@ const Projects = () => {
     }
   };
 
-  const allProjects = useMemo(() => [...projects, ...Array(3).fill(null)], [projects]);
+  const allProjects = useMemo(() => {
+    const totalProjects = 6;
+    const emptySlots = Math.max(0, totalProjects - projects.length);
+    return [...projects, ...Array(emptySlots).fill(null)];
+  }, [projects]);
 
   return (
     <>

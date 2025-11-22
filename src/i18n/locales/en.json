@@ -64,6 +64,11 @@
     "madeWith": "Developed with React and Tailwind CSS"
   },
   "projectData": {
+    "tippz": {
+      "title": "Tippz - Web System",
+      "shortDescription": "Web system for freelancer management and dropshipping product sales",
+      "description": "A hub with a range of functionalities, the main one being to serve suppliers who want to sell their products, allowing other users to automatically integrate with their sales channels (Mercado Livre, Amazon, TikTok Shop) to resell products. Its main features are:\n\n• Admin panel with complete management of all data\n• Bulk product registration and editing via CSV spreadsheet\n• OAuth2 integration with third-party platforms (Google for authentication, Mercado Pago for sales, etc)\n• Bulk sending to sales channels\n• Freelancer hiring feed for various niches (IT, Design, Digital Marketing, Legal and much more)\n• Among others"
+    },
     "helicebras": {
       "title": "Helicebras - Web System",
       "shortDescription": "Website for construction quotes from a local company",

@@ -1,5 +1,13 @@
 // No Next.js, os assets do public/ são servidos na raiz
 // Então usamos caminhos relativos começando com /assets/
+const TippzImage1 = '/assets/tippz/image.png';
+const TippzImage2 = '/assets/tippz/Captura de tela 2025-11-22 112915.png';
+const TippzImage3 = '/assets/tippz/Captura de tela 2025-11-22 113108.png';
+const TippzImage4 = '/assets/tippz/Captura de tela 2025-11-22 113142.png';
+const TippzImage5 = '/assets/tippz/Captura de tela 2025-11-22 113158.png';
+const TippzImage6 = '/assets/tippz/Captura de tela 2025-11-22 113209.png';
+const TippzImage7 = '/assets/tippz/Captura de tela 2025-11-22 113255.png';
+const TippzImage8 = '/assets/tippz/Captura de tela 2025-11-22 113312.png';
 const HelicebrasImage1 = '/assets/helicebras/imagem_2022-12-14_075548157.png';
 const HelicebrasImage2 = '/assets/helicebras/imagem_2022-12-14_075624133.png';
 const MoonlightLogo = '/assets/moonlight-bot/logo_moonlight.gif';
@@ -23,6 +31,16 @@ const MMImage10 = '/assets/mmbot/image_10.png';
 const MMImage11 = '/assets/mmbot/image_11.png';
 
 export const getProjects = (t) => {
+  const tippzProject = {
+    id: 'tippz',
+    title: t('projectData.tippz.title'),
+    shortDescription: t('projectData.tippz.shortDescription'),
+    logo: TippzImage1,
+    technologies: ['Java', 'Spring Boot', 'Angular', 'HTML', 'CSS', 'Javascript'],
+    description: t('projectData.tippz.description'),
+    images: [TippzImage1, TippzImage2, TippzImage3, TippzImage4, TippzImage5, TippzImage6, TippzImage7, TippzImage8]
+  };
+
   const helicebrasProject = {
     id: 'helicebras',
     title: t('projectData.helicebras.title'),
@@ -96,5 +114,5 @@ export const getProjects = (t) => {
     images: []
   };
 
-  return [helicebrasProject, moonlightProject, middlemanProject, integracoesProject];
+  return [tippzProject, helicebrasProject, moonlightProject, middlemanProject, integracoesProject];
 };

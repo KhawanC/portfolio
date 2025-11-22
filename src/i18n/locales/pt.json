@@ -64,6 +64,11 @@
     "madeWith": "Desenvolvido com React e Tailwind CSS"
   },
   "projectData": {
+    "tippz": {
+      "title": "Tippz - Sistema Web",
+      "shortDescription": "Sistema web para gestão de freelancers e venda de produtos dropshipping",
+      "description": "Uma hub que possui um leque de funcionalidades, dentre elas a principal é atender fornecedores que desejam vender seus produtos, permitindo que outros usuários de forma automática consigam integrar com seus canais de venda (Mercado Livre, Amazon, Tiktok Shop) para revender os produtos. Suas principais funcionalidades são:\n\n• Painel admin com gerenciamento completo de todos os dados\n• Cadastro e edição em massa de produtos via planilha CSV\n• Integração OAuth2 com plataformas de terceiros (Google para autenticação, Mercado Pago para vendas, etc)\n• Envio em massa para os canais de venda\n• Feed de contratação de freelancers para os mais diversos nichos (TI, Design, Marketing Digital, Jurídico e muito mais)\n• Dentre outras"
+    },
     "helicebras": {
       "title": "Helicebras - Sistema web",
       "shortDescription": "Site para orçamento de obras de uma empresa local",
