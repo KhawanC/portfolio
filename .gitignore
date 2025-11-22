@@ -1,3 +1,28 @@
+# Dependências
+node_modules
+/.pnp
+.pnp.js
+.yarn/install-state.gz
+
+# Testes
+/coverage
+*.lcov
+
+# Next.js
+/.next/
+/out/
+next-env.d.ts
+
+# Produção
+/build
+/dist
+/dist-ssr
+
+# Arquivos diversos
+.DS_Store
+*.pem
+*.local
+
 # Logs
 logs
 *.log
@@ -7,18 +32,38 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Arquivos de ambiente
+.env
+.env*.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# TypeScript
+*.tsbuildinfo
 
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
-.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Sistema operacional
+Thumbs.db
+.DS_Store
+
+# Cache
+.cache
+.parcel-cache
+.eslintcache
+
+# Temporários
+*.tmp
+*.temp
