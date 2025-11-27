@@ -8,7 +8,15 @@
     "title": "Kauã Cassiano",
     "subtitle": "Fullstack Web Developer",
     "description": "Transforming ideas into robust and innovative digital solutions",
-    "viewProjects": "View Projects"
+    "viewProjects": "View Projects",
+    "label": "Problem Solver",
+    "aboutMe": "About Me",
+    "aboutMeDescription": "Freelance professional who seeks excellence and speed in delivery, up-to-date with the market and using best practices to deliver the solution that will optimize slow and manual processes in your company",
+    "specialties": "Specialties",
+    "stats": {
+      "yearsExperience": "Years of experience",
+      "satisfiedClients": "Satisfied clients"
+    }
   },
   "about": {
     "title": "About",
@@ -40,7 +48,11 @@
   "skills": {
     "title": "My",
     "titleHighlight": "Skills",
-    "description": "Main technologies and tools I use in development"
+    "description": "Main technologies and tools I use in development",
+    "websiteDeveloper": "Website Developer",
+    "websiteDeveloperDescription": "Development of complete websites and web systems with the best market technologies",
+    "integrationDeveloper": "Integration Developer",
+    "integrationDeveloperDescription": "Integration between systems and third-party APIs for complete solutions"
   },
   "projects": {
     "title": "My",
@@ -58,6 +70,14 @@
     "discordLink": "Join Discord",
     "integrationsDescription": "I've had the opportunity to implement various backend integrations between systems, connecting different platforms and services to create complete and efficient solutions."
   },
+  "contact": {
+    "title": "Let's work together?",
+    "subtitle": "Transform your idea into reality",
+    "description": "Contact me to discuss your project. I'm available for new challenges and opportunities!",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "responseTime": "I respond within 24 hours"
+  },
   "footer": {
     "role": "Fullstack Web Developer",
     "rights": "All rights reserved",
@@ -73,6 +93,11 @@
       "title": "Helicebras - Web System",
       "shortDescription": "Website for construction quotes from a local company",
       "description": "Simple corporate website with modern and responsive design for a construction company in my state. It features a complete presentation of the services offered, with image examples in a carousel, a card explaining the company's trajectory, contact popups and a form for sending quotes."
+    },
+    "whatsapp": {
+      "title": "WhatsApp Support Automation",
+      "shortDescription": "WhatsApp support automation system for various niches",
+      "description": "WhatsApp automations for various niches, such as:\n\n• Logistics support\n• Digital product sales with automatic delivery\n• Service scheduling\n• Humanized support using AI\n• Database storage for inteligent answers."
     },
     "moonlight": {
       "title": "Moonlight - Discord",

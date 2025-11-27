@@ -3,9 +3,9 @@
 import { useEffect } from 'react'
 import Header from '../src/components/Header/Header'
 import Hero from '../src/components/Hero/Hero'
-import About from '../src/components/About/About'
 import Skills from '../src/components/Skills/Skills'
 import Projects from '../src/components/Projects/Projects'
+import ContactCTA from '../src/components/ContactCTA/ContactCTA'
 import Footer from '../src/components/Footer/Footer'
 
 export default function Home() {
@@ -65,9 +65,9 @@ export default function Home() {
       <Header />
       <main>
         <Hero />
-        <About />
         <Skills />
         <Projects />
+        <ContactCTA />
       </main>
       <Footer />
     </>

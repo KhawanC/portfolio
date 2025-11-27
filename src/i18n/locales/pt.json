@@ -8,7 +8,15 @@
     "title": "Kauã Cassiano",
     "subtitle": "Desenvolvedor Web Fullstack",
     "description": "Transformando ideias em soluções digitais robustas e inovadoras",
-    "viewProjects": "Ver Projetos"
+    "viewProjects": "Ver Projetos",
+    "label": "Problem Solver",
+    "aboutMe": "Sobre Mim",
+    "aboutMeDescription": "Profissional freelancer que busca excelência e rapidez na entrega, atualizado com o mercado e utilizando das melhores práticas para entregar para você a solução que irá otimizar processos lentos e manuais da sua empresa",
+    "specialties": "Especialidades",
+    "stats": {
+      "yearsExperience": "Anos de experiência",
+      "satisfiedClients": "Clientes satisfeitos"
+    }
   },
   "about": {
     "title": "Sobre",
@@ -40,7 +48,11 @@
   "skills": {
     "title": "Minhas",
     "titleHighlight": "Skills",
-    "description": "Principais tecnologias e ferramentas que utilizo no desenvolvimento"
+    "description": "Principais tecnologias e ferramentas que utilizo no desenvolvimento",
+    "websiteDeveloper": "Website Developer",
+    "websiteDeveloperDescription": "Desenvolvimento de sites e sistemas web completos com as melhores tecnologias do mercado",
+    "integrationDeveloper": "Integration Developer",
+    "integrationDeveloperDescription": "Integração entre sistemas e APIs de terceiros para soluções completas"
   },
   "projects": {
     "title": "Meus",
@@ -58,6 +70,14 @@
     "discordLink": "Entrar no Discord",
     "integrationsDescription": "Já tive a oportunidade de implementar no backend diversas integrações entre sistemas, conectando diferentes plataformas e serviços para criar soluções completas e eficientes."
   },
+  "contact": {
+    "title": "Vamos trabalhar juntos?",
+    "subtitle": "Transforme sua ideia em realidade",
+    "description": "Entre em contato comigo para discutirmos seu projeto. Estou disponível para novos desafios e oportunidades!",
+    "whatsapp": "WhatsApp",
+    "email": "Email",
+    "responseTime": "Respondo em até 24 horas"
+  },
   "footer": {
     "role": "Desenvolvedor Web Fullstack",
     "rights": "Todos os direitos reservados",
@@ -73,6 +93,11 @@
       "title": "Helicebras - Sistema web",
       "shortDescription": "Site para orçamento de obras de uma empresa local",
       "description": "Site empresarial simples com visual moderno e responsivo para uma empresa de obras do meu estado. Nela existe uma apresentação completa dos serviços oferecidos, com exemplo em imagens em um carrossel, card explicando a trajetória da empresa, popups de contato e um formulário para envio de orçamento."
+    },
+    "whatsapp": {
+      "title": "Automação atendimento Whatsapp",
+      "shortDescription": "Sistema de automação de atendimento WhatsApp para diversos nichos",
+      "description": "Automações de whatsapp para diversos nichos, como:\n\n• Atendimento logístico\n• Vendas de produtos digitais com entrega automática\n• Agendamento de serviços\n• Suporte humanizado utilizando I.A\n• Armazenamento em banco de dados para atendimento inteligente"
     },
     "moonlight": {
       "title": "Moonlight - Discord",

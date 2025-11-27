@@ -10,6 +10,9 @@ const TippzImage7 = '/assets/tippz/Captura de tela 2025-11-22 113255.png';
 const TippzImage8 = '/assets/tippz/Captura de tela 2025-11-22 113312.png';
 const HelicebrasImage1 = '/assets/helicebras/imagem_2022-12-14_075548157.png';
 const HelicebrasImage2 = '/assets/helicebras/imagem_2022-12-14_075624133.png';
+const WhatsAppImage1 = '/assets/whatsapp/image_1.png';
+const WhatsAppImage2 = '/assets/whatsapp/image_2.png';
+const WhatsAppImage3 = '/assets/whatsapp/image_3.png';
 const MoonlightLogo = '/assets/moonlight-bot/logo_moonlight.gif';
 const Screenshot1 = '/assets/moonlight-bot/Captura de tela 2025-11-07 061620.png';
 const Screenshot2 = '/assets/moonlight-bot/Captura de tela 2025-11-07 061659.png';
@@ -50,6 +53,17 @@ export const getProjects = (t) => {
     description: t('projectData.helicebras.description'),
     images: [HelicebrasImage1, HelicebrasImage2]
   };
+
+  const whatsappProject = {
+    id: 'whatsapp',
+    title: t('projectData.whatsapp.title'),
+    shortDescription: t('projectData.whatsapp.shortDescription'),
+    logo: WhatsAppImage1,
+    technologies: ['Python', 'N8N', 'Waha'],
+    description: t('projectData.whatsapp.description'),
+    images: [WhatsAppImage1, WhatsAppImage2, WhatsAppImage3]
+  };
+
   const moonlightProject = {
     id: 'moonlight',
     title: t('projectData.moonlight.title'),
@@ -114,5 +128,5 @@ export const getProjects = (t) => {
     images: []
   };
 
-  return [tippzProject, helicebrasProject, moonlightProject, middlemanProject, integracoesProject];
+  return [tippzProject, helicebrasProject, whatsappProject, moonlightProject, middlemanProject, integracoesProject];
 };

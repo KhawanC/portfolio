@@ -8,14 +8,21 @@ export default {
     extend: {
       colors: {
         dark: {
-          primary: '#0a0a0a',
-          secondary: '#1a1a1a',
+          primary: '#2B3340',
+          secondary: '#1F2732',
           tertiary: '#2a2a2a',
         },
         accent: {
-          blue: '#3b82f6',
-          purple: '#8b5cf6',
-          pink: '#ec4899',
+          blue: '#6B7FFF',
+          purple: '#5865F2',
+          cyan: '#4ECDC4',
+          coral: '#FF6B6B',
+          orange: '#FFB84D',
+        },
+        text: {
+          primary: '#FFFFFF',
+          secondary: '#A0A8B8',
+          tertiary: '#6B7380',
         }
       },
       fontFamily: {
