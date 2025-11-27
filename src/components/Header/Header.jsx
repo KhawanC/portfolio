@@ -78,7 +78,7 @@ const Header = () => {
 
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="md:hidden text-white p-2"
+            className="md:hidden text-white p-2 bg-white/10 backdrop-blur-sm rounded-lg border border-white/20 hover:bg-white/20 transition-colors"
             aria-label="Toggle menu"
           >
             <svg
@@ -111,18 +111,18 @@ const Header = () => {
             initial={{ opacity: 0, height: 0 }}
             animate={{ opacity: 1, height: 'auto' }}
             exit={{ opacity: 0, height: 0 }}
-            className="md:hidden py-4 space-y-4"
+            className="md:hidden py-4 space-y-4 bg-dark-secondary/95 backdrop-blur-md rounded-lg mt-2 border border-white/10"
           >
             {navItems.map((item) => (
               <button
                 key={item.id}
                 onClick={() => scrollToSection(item.id)}
-                className="block w-full text-left text-gray-300 hover:text-white transition-colors py-2"
+                className="block w-full text-left text-gray-300 hover:text-white transition-colors py-2 px-2"
               >
                 {item.name}
               </button>
             ))}
-            <div className="pt-2">
+            <div className="pt-2 px-2">
               <LanguageSelector />
             </div>
           </motion.div>

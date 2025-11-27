@@ -71,7 +71,7 @@ const Hero = () => {
             initial={{ opacity: 0, x: -50 }}
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
             transition={{ duration: 0.8 }}
-            className="space-y-8"
+            className="space-y-8 order-2 lg:order-1"
           >
             <div className="flex gap-8 flex-wrap">
               <motion.div
@@ -147,7 +147,7 @@ const Hero = () => {
             initial={{ opacity: 0, x: 50 }}
             animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
             transition={{ duration: 0.8 }}
-            className="space-y-8"
+            className="space-y-8 order-1 lg:order-2"
           >
             <div>
               <motion.div
