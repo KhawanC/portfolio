@@ -127,7 +127,7 @@ const ProjectModal = ({ project, onClose, selectedImageIndex, onImageChange, onI
               <>
                 <div className="mb-6">
                   <h3 className="text-lg font-semibold text-white mb-3">
-                    {t('projects.description')}
+                    {t('projects.descriptionLabel')}
                   </h3>
                   <p className="text-gray-300 whitespace-pre-line leading-relaxed">
                     {project.description}

@@ -63,7 +63,7 @@
     "openButton": "Abrir",
     "clickToExpand": "Clique para expandir",
     "technologies": "Tecnologias",
-    "description": "Descrição",
+    "descriptionLabel": "Descrição",
     "gallery": "Galeria",
     "aboutProject": "Sobre o Projeto",
     "implementedIntegrations": "Integrações Implementadas",
@@ -84,6 +84,11 @@
     "madeWith": "Desenvolvido com React e Tailwind CSS"
   },
   "projectData": {
+    "minha_culinaria": {
+      "title": "Minha Culinaria - Landing Page",
+      "shortDescription": "Landing page para expor serviços de consultoria web.",
+      "description": "Pagina de vendas para um serviço de consultoria web, onde o cliente pode conhecer os serviços oferecidos, ver depoimentos de clientes anteriores e entrar em contato para solicitar um orçamento. A página é otimizada para conversão, com um design moderno e responsivo, garantindo uma ótima experiência em qualquer dispositivo."
+    },
     "tippz": {
       "title": "Tippz - Sistema Web",
       "shortDescription": "Sistema web para gestão de freelancers e venda de produtos dropshipping",

@@ -1,5 +1,11 @@
 // No Next.js, os assets do public/ são servidos na raiz
 // Então usamos caminhos relativos começando com /assets/
+const MinhaCulinariaImage1 = '/assets/minha_culinaria/Captura de tela de 2026-04-06 14-22-54.png';
+const MinhaCulinariaImage2 = '/assets/minha_culinaria/Captura de tela de 2026-04-06 14-23-04.png';
+const MinhaCulinariaImage3 = '/assets/minha_culinaria/Captura de tela de 2026-04-06 14-23-16.png';
+const MinhaCulinariaImage4 = '/assets/minha_culinaria/Captura de tela de 2026-04-06 14-23-29.png';
+const MinhaCulinariaImage5 = '/assets/minha_culinaria/Captura de tela de 2026-04-06 14-23-39.png';
+const MinhaCulinariaImage6 = '/assets/minha_culinaria/Captura de tela de 2026-04-06 14-23-44.png';
 const TippzImage1 = '/assets/tippz/image.png';
 const TippzImage2 = '/assets/tippz/Captura de tela 2025-11-22 112915.png';
 const TippzImage3 = '/assets/tippz/Captura de tela 2025-11-22 113108.png';
@@ -34,6 +40,23 @@ const MMImage10 = '/assets/mmbot/image_10.png';
 const MMImage11 = '/assets/mmbot/image_11.png';
 
 export const getProjects = (t) => {
+  const minhaCulinariaProject = {
+    id: 'minha_culinaria',
+    title: t('projectData.minha_culinaria.title'),
+    shortDescription: t('projectData.minha_culinaria.shortDescription'),
+    logo: MinhaCulinariaImage1,
+    technologies: ['Next.js', 'TypeScript', 'HTML', 'CSS', 'RadixUI', 'Framer Motion'],
+    description: t('projectData.minha_culinaria.description'),
+    images: [
+      MinhaCulinariaImage1,
+      MinhaCulinariaImage2,
+      MinhaCulinariaImage3,
+      MinhaCulinariaImage4,
+      MinhaCulinariaImage5,
+      MinhaCulinariaImage6
+    ]
+  };
+
   const tippzProject = {
     id: 'tippz',
     title: t('projectData.tippz.title'),
@@ -128,5 +151,5 @@ export const getProjects = (t) => {
     images: []
   };
 
-  return [tippzProject, helicebrasProject, whatsappProject, moonlightProject, middlemanProject, integracoesProject];
+  return [minhaCulinariaProject, tippzProject, helicebrasProject, whatsappProject, moonlightProject, middlemanProject, integracoesProject];
 };

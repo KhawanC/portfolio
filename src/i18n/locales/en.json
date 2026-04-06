@@ -63,7 +63,7 @@
     "openButton": "Open",
     "clickToExpand": "Click to expand",
     "technologies": "Technologies",
-    "description": "Description",
+    "descriptionLabel": "Description",
     "gallery": "Gallery",
     "aboutProject": "About the Project",
     "implementedIntegrations": "Implemented Integrations",
@@ -84,6 +84,11 @@
     "madeWith": "Developed with React and Tailwind CSS"
   },
   "projectData": {
+    "minha_culinaria": {
+      "title": "Minha Culinaria - Landing Page",
+      "shortDescription": "Landing page to showcase web consulting services.",
+      "description": "Sales page for a web consulting service where the client can learn about the offered services, see testimonials from previous clients, and get in touch to request a quote. The page is optimized for conversion, with a modern and responsive design that ensures a strong experience on any device."
+    },
     "tippz": {
       "title": "Tippz - Web System",
       "shortDescription": "Web system for freelancer management and dropshipping product sales",
